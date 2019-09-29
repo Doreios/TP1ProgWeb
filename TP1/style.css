@@ -1,0 +1,11 @@
+body {
+  margin-left: 15px;
+}
+input[type=text],
+input[type=password] {
+  width: 300px;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+  border: 3px solid #555;
+}

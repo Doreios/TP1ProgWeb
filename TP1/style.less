@@ -1,0 +1,14 @@
+@bodyLeftMargin: 15px;
+@textInputWidth: 300px;
+
+body{
+    margin-left: @bodyLeftMargin;
+}
+
+input[type=text], input[type=password] {
+    width: @textInputWidth;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 3px solid #555;
+}
